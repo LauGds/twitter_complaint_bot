@@ -96,6 +96,7 @@ class InternetSpeedTwitterBot:
                                                                    'span/span')
         tweet_button.click()
         time.sleep(1000)
+        
 
 bot = InternetSpeedTwitterBot(service, TWITTER_EMAIL, TWITTER_PASSWORD)
 bot.get_internet_speed()
