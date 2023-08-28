@@ -51,7 +51,7 @@ class InternetSpeedTwitterBot:
         username = self.driver.find_element(by=By.XPATH, value='//*[@id="layers"]/div/div/div/div/div/div/div[2]/'
                                                                'div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/'
                                                                'label/div/div[2]/div/input')
-        username.send_keys("username")
+        username.send_keys("USERNAME")
         time.sleep(1)
         next_button_two = self.driver.find_element(by=By.XPATH, value='//*[@id="layers"]/div/div/div/div/div/div/'
                                                                       'div[2]/div[2]/div/div/div[2]/div[2]/div[2]/'
