@@ -5,9 +5,9 @@ import time
 
 PROMISED_DOWN = 150
 PROMISED_UP = 10
-CHROME_DRIVER_PATH = r"path\chromedriver.exe"
-TWITTER_EMAIL = "EMAI@gmail.com"
-TWITTER_PASSWORD = "PASS"
+CHROME_DRIVER_PATH = r"PATH\chromedriver.exe"
+TWITTER_EMAIL = "EMAIL"
+TWITTER_PASSWORD = "PASSWORD"
 service = Service(CHROME_DRIVER_PATH)
 
 
